@@ -3,25 +3,66 @@
     margin: 0;
     padding: 0;
 }
-li, a {
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
+body {
+    height: 100vh;
+    background-image: url(school.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "Roboto", sans-serif;
+}
+header {
     background-color: #eba865;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: transparent;
 }
-a {
-    background-color: transparent;
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px 40px;
+}
+.links img {
+    width: 70px;
+    border-radius: 50%;
+
+
+}
+.links li {
+    margin-left: 20px;
+}
+
+.links a {
+    color: rgb(0, 0, 0);
     text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+    padding: 10px 15px;
+    border-radius: 20px;
+    
 }
-img{
-    width: 50px;
-    border-radius: 30px;
+.links a:hover{
+    color: blue;
+    background-color: #DCF0C3;
 }
 nav {
-    align-items: center;
-    
-    
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
 }
-.navv {
-    display: flex;
+.textt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+p {
+    color: #59291a;
+    font-weight: 900;
 }
