@@ -93,3 +93,6 @@ p {
 .gallery img:hover{
     transform: scale(1.05);
 }
+.links .logo-link:hover {
+    background-color: transparent;
+}

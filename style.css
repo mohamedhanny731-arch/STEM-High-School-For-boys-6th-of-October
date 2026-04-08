@@ -69,7 +69,6 @@ p {
     color: #59291a;
     font-weight: 900;
 }
-.links a:not(.logo-link):hover {
-    color: blue;
-    background-color: #DCF0C3;
+.links .logo-link:hover {
+    background-color: transparent;
 }
