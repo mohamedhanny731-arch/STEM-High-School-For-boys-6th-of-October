@@ -168,3 +168,11 @@ p {
     color: orangered;
     margin-top: 30px;
 }
+.bbgk{
+        height: 100vh;
+    background-image: url(photos/restra.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
