@@ -141,3 +141,30 @@ p {
     color: #444;
     font-weight: 400;
 }
+.bbggkk {
+    height: 100vh;
+    background-image: url(photos/Cantine.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#cant {
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+    color: purple;
+}
+.bgggkkk{
+    height: 100vh;
+    background-image: url(photos/homeschooling.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#dorm{
+    text-align: center;
+    color: orangered;
+    margin-top: 30px;
+}
